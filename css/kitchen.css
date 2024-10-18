@@ -317,10 +317,15 @@ background-position: center;
 /* end meals */
 .contact{
     padding-top: var(--main-padding-top);
-    min-height: 80vh;
+    min-height: 40vh;
     background-image: url("./images/contact.jpg");
     background-size: cover;
     position: relative;
+}
+@media(min-width:992px){
+    .contact{
+        min-height: 80vh;
+    }
 }
 .contact::before{
     content: "";
