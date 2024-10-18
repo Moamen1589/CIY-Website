@@ -24,7 +24,7 @@
     padding-right: 15px;
 }
 .landing{
- background-image: url(/images/Untitled-design-33-550x413.png);
+ background-image: url(../images/Untitled-design-33-550x413.png);
  background-size: cover;
  position: relative;
  animation: landing 2.7s ease ;
@@ -96,7 +96,7 @@ padding-bottom: var(--main-padding-bottom);
 .photo{
  width: 400px;
  height: 560px;
- background-image: url("/images/2cooking.webp");
+ background-image: url("../images/2cooking.webp");
  background-size: cover;
  animation:  about-photo 2s ease-in  infinite ;
  -webkit-animation:  about-photo 2s ease-in linear  0.9s infinite ;
@@ -214,17 +214,17 @@ video{
    -o-border-radius: 5px;
 }
 #food1{
-    background-image: url("/images/chicken-congee-tn.jpg");
+    background-image: url("../images/chicken-congee-tn.jpg");
     background-size: cover;
     background-position: center;
 }
 #food2{
-    background-image: url("/images/uncle-george-s-laksa-singapore-s-best-secret-ede.jpg");
+    background-image: url("../images/uncle-george-s-laksa-singapore-s-best-secret-ede.jpg");
     background-size: cover;
     background-position: center;
 }
 #food3{
-    background-image: url("/images/vegan-noodle-salad.jpg");
+    background-image: url("../images/vegan-noodle-salad.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -241,7 +241,7 @@ video{
 .photo-side .veg-photo{
     width: 400px;
     height: 500px;
-    background-image: url("/images/istockphoto-1456995003-612x612.jpg");
+    background-image: url("../images/istockphoto-1456995003-612x612.jpg");
     background-size: cover;
 background-position: center;
 }
@@ -318,7 +318,7 @@ background-position: center;
 .contact{
     padding-top: var(--main-padding-top);
     min-height: 80vh;
-    background-image: url("/images/contact.jpg");
+    background-image: url("../images/contact.jpg");
     background-size: cover;
     position: relative;
 }
